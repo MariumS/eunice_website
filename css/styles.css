@@ -1,0 +1,102 @@
+body {
+  /* This sets the background using a hex color */
+  background: linear-gradient(to bottom, #6699ff 0%, #ffccff 100%);
+  font-family: sans-serif;
+}
+
+div {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+
+h1 {
+  color: #5D00D4;
+}
+
+h2 {
+  color: #5D00D4;
+}
+
+p {
+  color: #660066;
+}
+
+a {
+  color: #5D00D4;
+}
+
+.step {
+  color: #5D00D4;
+}
+
+/* Initial state */
+
+#visited {
+  bottom: 0;
+  display: block;
+  left: 0;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+
+#logo,
+section,
+footer {
+  display: none;
+}
+
+#intro {
+  display: block;
+}
+
+
+/* 00 Content */
+
+html.step7 #start {
+  display: block;
+}
+
+html.step0 #Shelter {
+  display: block;
+}
+
+
+/* 01 hiding */
+
+html.step1 #hiding {
+  display: block;
+}
+
+html.step1 header,
+html.step1 main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+/* 02  */
+
+html.step2 #bold {
+  display: block;
+}
+
+html.step2 body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* 03 Spacing */
+
+html.step3 #playful {
+  display: block;
+}
+
+html.step3 body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+html.step3 h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
