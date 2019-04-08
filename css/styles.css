@@ -50,9 +50,12 @@ a {
     animation-name: blink;
 }
 
-#section {
-    display: none;
+#logo,
+section,
+footer {
+  display: none;
 }
+
 
 #intro {
   display: block;
