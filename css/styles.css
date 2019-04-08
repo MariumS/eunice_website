@@ -29,11 +29,6 @@ a {
   color: #5D00D4;
 }
 
-
-/* Initial state */
-
-
-
 /* Initial state */
 
 #visited {
@@ -46,9 +41,7 @@ a {
   text-align: center;
 }
 
-#logo,
-#section,
-#footer {
+.step {
   display: none;
 }
 
