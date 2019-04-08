@@ -29,6 +29,7 @@ a {
   color: #5D00D4;
 }
 
+
 /* Initial state */
 
 #visited {
@@ -41,6 +42,10 @@ a {
   text-align: center;
 }
 
+
+.section {
+        display: none;
+    }
 
 #intro {
   display: block;
