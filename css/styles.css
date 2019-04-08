@@ -42,7 +42,9 @@ a {
   text-align: center;
 }
 
-#section {
+#logo,
+section,
+footer {
   display: none;
 }
 
@@ -53,7 +55,7 @@ a {
 
 /* Content */
 
-html.step0 #start {
+html.step7 #start {
   display: block;
 }
 
