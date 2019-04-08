@@ -41,18 +41,12 @@ a {
   text-align: center;
 }
 
-#logo,
-section,
-footer {
-  display: none;
-}
 
 #intro {
   display: block;
 }
 
-
-/* 00 Content */
+/* Content */
 
 html.step0 #start {
   display: block;
@@ -62,40 +56,14 @@ html.step1 #Shelter {
   display: block;
 }
 
-
-/* 01 hiding */
-
 html.step2 #hiding {
   display: block;
 }
-
-html.step2 header,
-html.step2 main {
-  margin: 0 auto;
-  max-width: 50em;
-}
-
 
 html.step3 #bold {
   display: block;
 }
 
-html.step3 body {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-/* 03 Spacing */
-
 html.step4 #playful {
   display: block;
-}
-
-html.step4 body {
-  line-height: 1.5;
-  padding: 4em 1em;
-}
-
-html.step4 h2 {
-  margin-top: 1em;
-  padding-top: 1em;
 }
