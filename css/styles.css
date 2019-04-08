@@ -1,3 +1,4 @@
+
 body {
   /* This sets the background using a hex color */
   background: linear-gradient(to bottom, #6699ff 0%, #ffccff 100%);
@@ -41,7 +42,9 @@ a {
   text-align: center;
 }
 
-.step {
+#logo,
+section,
+footer {
   display: none;
 }
 
@@ -49,32 +52,59 @@ a {
   display: block;
 }
 
+
+/* 00 Content */
+
+html.step7 #start {
+  display: block;
+}
+
+html.step0 #Shelter {
+  display: block;
+}
+
+
+/* 01 hiding */
+
+html.step1 #hiding {
+  display: block;
+}
+
+html.step1 header,
+html.step1 main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+/* 02  */
+
+html.step2 #bold {
+  display: block;
+}
+
+html.step2 body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* 03 Spacing */
+
+html.step3 #playful {
+  display: block;
+}
+
+html.step3 body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+html.step3 h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
 .animate {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-name: blink;
     animation-name: blink;
-}
-
-
-/* Content */
-
-html.step0 #start {
-  display: block;
-}
-
-html.step1 #Shelter {
-  display: block;
-}
-
-html.step2 #hiding {
-  display: block;
-}
-
-html.step3 #bold {
-  display: block;
-}
-
-html.step4 #playful {
-  display: block;
 }
