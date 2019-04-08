@@ -54,49 +54,48 @@ footer {
 
 /* 00 Content */
 
-html.step7 #start {
+html.step0 #start {
   display: block;
 }
 
-html.step0 #Shelter {
+html.step1 #Shelter {
   display: block;
 }
 
 
 /* 01 hiding */
 
-html.step1 #hiding {
+html.step2 #hiding {
   display: block;
 }
 
-html.step1 header,
-html.step1 main {
+html.step2 header,
+html.step2 main {
   margin: 0 auto;
   max-width: 50em;
 }
 
-/* 02  */
 
-html.step2 #bold {
+html.step3 #bold {
   display: block;
 }
 
-html.step2 body {
+html.step3 body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
 /* 03 Spacing */
 
-html.step3 #playful {
+html.step4 #playful {
   display: block;
 }
 
-html.step3 body {
+html.step4 body {
   line-height: 1.5;
   padding: 4em 1em;
 }
 
-html.step3 h2 {
+html.step4 h2 {
   margin-top: 1em;
   padding-top: 1em;
 }
