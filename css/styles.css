@@ -55,7 +55,7 @@ footer {
 
 /* Content */
 
-html.step0 #start {
+html.step7 #start {
   display: block;
 }
 
@@ -67,29 +67,29 @@ html.step2 #hiding {
   display: block;
 }
 
-html.step2 header,
+/*html.step2 header,
 html.step2 main {
   margin: 0 auto;
   max-width: 50em;
-}
+}*/
 
 
 html.step3 #bold {
   display: block;
 }
 
-html.step3 body {
+/*html.step3 body {
   font-family: "Helvetica", "Arial", sans-serif;
-
+*/
 }
 html.step4 #playful {
   display: block;
 }
 
-html.step4 body {
+/*html.step4 body {
   line-height: 1.5;
   padding: 4em 1em;
-}
+}*/
 
 .animate {
     -webkit-animation-duration: 1s;
