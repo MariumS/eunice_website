@@ -32,6 +32,10 @@ a {
 
 /* Initial state */
 
+
+
+/* Initial state */
+
 #visited {
   bottom: 0;
   display: block;
@@ -42,6 +46,15 @@ a {
   text-align: center;
 }
 
+#logo,
+#section,
+#footer {
+  display: none;
+}
+
+#intro {
+  display: block;
+}
 
 .animate {
     -webkit-animation-duration: 1s;
@@ -50,20 +63,6 @@ a {
     animation-name: blink;
 }
 
-#logo,
-section,
-footer {
-  display: none;
-}
-
-
-#intro {
-  display: block;
-}
-
-head {
-    display: none;
-}
 
 /* Content */
 
