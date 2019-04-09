@@ -3,7 +3,7 @@ body {
   /* This sets the background using a hex color */
   background: linear-gradient(to bottom, #6699ff 0%, #ffccff 100%);
   font-family: sans-serif;
-  font-size: 20;
+  font-size: 20px;
 
 }
 
@@ -15,26 +15,26 @@ div {
 h1 {
   color: #5D00D4;
   font-family: sans-serif;
-  font-size: 30;
+  font-size: 30px;
 }
 
 h2 {
   color: #5D00D4;
   font-family: sans-serif;
-  font-size: 25;
+  font-size: 25px;
 
 }
 
 p {
   color: #660066;
   font-family: sans-serif;
-  font-size: 20;
+  font-size: 20px;
 
 }
 
 a {
   color: #5D00D4;
-  font-size: 20;
+  font-size: 20px;
 
 }
 
